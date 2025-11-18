@@ -3,7 +3,7 @@
 #define MAX_LIGHT 16
 #define FLOAT_THRESH 0.0001
 
-#extension GL_EXT_frag_depth : require // lets us set frag_depth manually
+#extension GL_EXT_frag_depth : enable // lets us set frag_depth manually
 
 precision mediump float; // "Satisfies the minimum requirements above for the fragment language" - GLSL manual
 
